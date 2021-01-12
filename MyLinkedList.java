@@ -10,10 +10,15 @@ public class MyLinkedList{
  public boolean add(String value){
    Node newNode = new Node(value);
    end.setNext(newNode);
+   newNode.setPrev(end);
    end = end.getNext();
  }
  public void add(int index, String value){
-   
+   int currentIndex = 0;
+   Node current = start
+   while(current < index){
+
+   }
  }
  public String get(int index);
  public String set(int index, String value);
