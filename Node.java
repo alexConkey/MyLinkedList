@@ -4,8 +4,6 @@ public class Node{
   public Node(String value){
     data = value;
   }
-
-  private Node next,prev;
   public String getData(){
     return data;
   }
